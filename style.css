@@ -1,0 +1,68 @@
+.home{
+    display: flex;
+
+}
+.home1{
+    flex: 1;
+    height: 900px;
+    background-color: rgb(33 33 33) ;
+    block-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+
+
+}
+.home2{
+    flex: 6;
+    height: 900px;
+    background-color: black;
+}
+
+.home12{
+    display: flex;
+    margin-left: 10px;
+    height: 40px;
+}
+.searchbox{
+    position: relative;
+    left: 150px;
+}
+.searchbox img{
+    position: relative;
+    top: 10px;
+}
+input{
+    width: 450px;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+}
+.searchright{
+    position: absolute;
+    left: 88%;
+    top: 4%;
+    
+}
+.btn{
+    border:1px solid transparent ;
+    position: relative;
+    margin-left: 20px;
+    border-radius: 40px;
+}
+button{
+    background-color: rgb(56 56 56);
+    color: white;
+}
+.box{
+    margin-left: 80px;
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+.box2{
+    display: flex;
+}
+.home1 p{
+    margin-left: 15px;
+}
